@@ -48,7 +48,7 @@ module Gruf
         pool_keep_alive: GRPC::Pool::DEFAULT_KEEP_ALIVE,
         connect_md_proc: nil,
         server_args: {}
-      }.freeze
+      }
     }.freeze
 
     attr_accessor *VALID_CONFIG_KEYS.keys
